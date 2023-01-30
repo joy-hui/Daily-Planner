@@ -38,3 +38,59 @@ for (var i = 0; i < 9; i++) {
     t.setAttribute("class", "future");
   }
 }
+
+// Click event to save
+$("#button9").on("click", function (event) {
+    event.preventDefault();
+    var saveIput = $("#9").val();
+    localStorage.setItem("inputHour9", JSON.stringify(saveIput));
+  });
+  
+  $("#button10").on("click", function (event) {
+    event.preventDefault();
+    var saveIput = $("#10").val();
+    localStorage.setItem("inputHour10", JSON.stringify(saveIput));
+  });
+  
+  $("#button11").on("click", function (event) {
+    event.preventDefault();
+    var saveIput = $("#11").val();
+    localStorage.setItem("inputHour11", JSON.stringify(saveIput));
+  });
+  
+  $("#button12").on("click", function (event) {
+    event.preventDefault();
+    var saveIput = $("#12").val();
+    localStorage.setItem("inputHour12", JSON.stringify(saveIput));
+  });
+  
+  $("#button13").on("click", function (event) {
+    event.preventDefault();
+    var saveIput = $("#13").val();
+    localStorage.setItem("inputHour13", JSON.stringify(saveIput));
+  });
+  
+  $("#button14").on("click", function (event) {
+    event.preventDefault();
+    var saveIput = $("#14").val();
+    localStorage.setItem("inputHour14", JSON.stringify(saveIput));
+  });
+  
+  $("#button15").on("click", function (event) {
+    event.preventDefault();
+    var saveIput = $("#15").val();
+    localStorage.setItem("inputHour15", JSON.stringify(saveIput));
+  });
+  
+  $("#button16").on("click", function (event) {
+    event.preventDefault();
+    var saveIput = $("#16").val();
+    localStorage.setItem("inputHour16", JSON.stringify(saveIput));
+  });
+  
+  $("#button17").on("click", function (event) {
+    event.preventDefault();
+    var saveIput = $("#17").val();
+    localStorage.setItem("inputHour17", JSON.stringify(saveIput));
+  });
+  
