@@ -94,3 +94,15 @@ $("#button9").on("click", function (event) {
     localStorage.setItem("inputHour17", JSON.stringify(saveIput));
   });
   
+  //Persist events between refreshes of a page
+  $("#9").val(localStorage.getItem("inputHour9"));
+  $("#10").val(localStorage.getItem("inputHour10"));
+  $("#11").val(localStorage.getItem("inputHour11"));
+  $("#12").val(localStorage.getItem("inputHour12"));
+  $("#13").val(localStorage.getItem("inputHour13"));
+  $("#14").val(localStorage.getItem("inputHour14"));
+  $("#15").val(localStorage.getItem("inputHour15"));
+  $("#16").val(localStorage.getItem("inputHour16"));
+  $("#17").val(localStorage.getItem("inputHour17"));
+ 
+  
