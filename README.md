@@ -1,6 +1,6 @@
 # Daily-Planner
 
-## It's a code create a simple calendar application that allows a user to save events for each hour of the day. contains the following requirements:
+## It's a code create a simple calendar application that allows a user to save events for each hour of the day.
 
 ## It contains the following requirements:
 
