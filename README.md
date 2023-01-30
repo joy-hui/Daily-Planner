@@ -21,7 +21,7 @@
 
 
 ## This is the link
-*  https://joy-hui.github.io/Quiz/
+*  https://joy-hui.github.io/Daily-Planner/
 
 
 
